@@ -1,6 +1,7 @@
 # LectureEvaluation
 
-[팀 프로젝트] JSP로 구현한 강의평가 사이트
+[팀 프로젝트] JSP로 구현한 강의평가 사이트  
+많은 도움을 받은 사이트: https://ndb796.tistory.com/35?category=986634
 
 ## 주 기능
 - 로그인 / 회원가입 / 마이페이지(정보열람/회원탈퇴)
