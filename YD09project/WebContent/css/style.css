@@ -1,0 +1,135 @@
+@import url(//fonts.googleapis.com/earlyaccess/hanna.css);
+
+body {
+    margin-top: 30px;
+    font-family: 'Hanna';
+}
+
+header #top {
+    display: flex;
+    margin: 10px;
+    margin-right: 100px;
+    margin-left: 100px;
+    justify-content: space-between;
+}
+
+header #top_sort {
+    flex-direction: row;
+    width: 400px;
+}
+
+header img {
+    padding-left: 50px;
+    padding-right: 30px;
+}
+
+.title {
+    flex-direction: row;
+}
+
+header #top_menu {
+    text-align: right;
+}
+
+header #top_menu_horizontal {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 20px;
+	font-size: 23px;
+}
+
+header #top_menu_align {
+	padding-top: 20px;
+	font-size: 23px;
+}
+
+header #li_top1 {
+    width: 400px;
+}
+
+header #li_top2 {
+    width: 100px;
+    padding-left: 10px;
+}
+
+header #li_top3 {
+	width: 100px;
+    padding-left: 10px;
+    text-align: right;
+}
+
+header #main_menu {
+    height: 80px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    background-color: rgb(52, 152, 219, 0.61);
+}
+
+header #ul_main {
+    width:700px;
+    margin:auto;
+/* border:solid 1px #ff0000; */
+    text-align:center;
+    padding-right: 40px;
+}
+
+header #li_main {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 40px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+section #main_img {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+}
+
+section #main_img img {
+    width: 1000px;
+    height: auto;
+}
+
+section #main_post{
+    display: flex;
+    margin-top: 30px;
+    margin-right: 200px;
+    margin-left: 200px;
+    justify-content: space-evenly;
+}
+
+section #main_post #post_review {
+    width: 400px;
+}
+
+section #main_post #post_review #title {
+    font-size: 30px;
+}
+
+section #main_post #post_review li {
+    font-size: 20px;
+}
+
+section #main_post #post_review .market_img {
+    list-style: none;
+    display: inline-block;
+    margin: 5px;
+    overflow: hidden;
+    height: 100px; width: 100px;
+}
+
+section #main_post #post_review img {
+    min-width: 100%;
+    min-height: 100%;
+}

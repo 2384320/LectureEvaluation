@@ -1,0 +1,181 @@
+/*==========[main]==========*/
+#main .title {
+   padding-left: 20%; font-size: 40px;
+}
+
+#main .review {
+   	width: 60%;
+	text-align: center;
+	margin:0px auto;
+    padding:0px;
+    overflow:hidden;
+}
+
+#main .review_board {
+	border: 1px solid #dcdcdc;
+	background-color: #f8f9fa;
+	border-radius: 10px;
+}
+
+#main .review_header {
+	border-bottom: 1px solid #dcdcdc;
+}
+
+#main .padding {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+#main .horizontal {
+	display:inline-block;
+	vertical-align: middle;
+	
+}
+
+#main .padding_content {
+	padding-left: 20px;
+	padding-right: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+#main .selected_a {
+	font-size: 20px;
+}
+
+#main .selected_b { /* 선택됨 */
+	font-size: 20px;
+	color: rgb(52, 152, 219, 0.61);
+}
+
+#main .searchSelect {
+    margin: 10px;
+	width: 100px;
+	padding: .8em .5em;
+	
+	border: 1px solid #c0c0c0;
+	background: url('../img/arrow.jpg') no-repeat 95% 50%;
+	background-color: transparent;
+	border-radius: 0px;
+	
+	font-size: 15px;
+    color: black;
+    font-family: 'Hanna', serif;
+	
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+#main .searchInput {
+	margin: 5px;
+    width: 200px;
+    height: 35px;
+    border: 1px solid #c0c0c0;
+    background-color: transparent;
+	font-size: 15px;
+    color: black;
+    font-family: 'Hanna', serif;
+}
+
+section .btn:hover {
+	background-color: rgb(52, 152, 219, 0.61);
+}
+
+section .btn::after {
+  height: 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+section .btn:hover:after {
+  height: 100%;
+}
+
+section .btn::before,
+section .btn::after {
+  background: #fff;
+  content: '';
+  position: absolute;
+  z-index: -1;
+}
+
+section .btn,
+section .btn::after {
+  -webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+section .btn {
+	margin: 5px;
+    width: 100px;
+    height: 35px;
+    border: 1px solid #c0c0c0;
+    background-color: transparent;
+	font-size: 15px;
+    color: black;
+    background-color: white;
+    font-family: 'Hanna', serif;
+}
+
+section .btnDiv {
+	text-align: center;
+}
+
+/*==========[write]============*/
+
+#rewrite .title {
+   padding-left: 20%; font-size: 40px;
+}
+
+#rewrite .main_write {
+   text-align: center;
+   width: 610px;
+   height: 400px;
+   font-size: 25px;
+}
+
+#rewrite .horizontal {
+   display:inline-block;
+   vertical-align: middle;
+}
+
+#rewrite .re_input {
+	margin: 5px;
+    width: 200px;
+    height: 35px;
+    border: 1px solid #c0c0c0;
+    background-color: transparent;
+	font-size: 20px;
+    color: black;
+    font-family: 'Hanna', serif;
+}
+
+#rewrite .re_select {
+   margin: 5px;
+    width: 200px;
+    height: 30px;
+    border: 1px solid #c0c0c0;
+    background-color: transparent;
+   font-size: 20px;
+    color: black;
+    font-family: 'Hanna', serif;
+}
+
+#rewrite .re_txtara {
+   margin: 5px;
+    width: 600px;
+    height: 200px;
+    border: 1px solid #c0c0c0;
+    background-color: transparent;
+   font-size: 20px;
+    color: black;
+    font-family: 'Hanna', serif;
+}

@@ -1,0 +1,146 @@
+@charset "UTF-8";
+@import url(//fonts.googleapis.com/earlyaccess/hanna.css);
+
+body {
+	font-family: 'Hanna';
+}
+
+div #join_input{
+	margin: 10px;
+    width: 200px;
+    height: 40px;
+    border: 1px solid #c0c0c0;
+    background-color: transparent;
+	font-size: 15px;
+    color: gray;
+    font-family: 'Hanna', serif;
+}
+
+#join_hint_btn {
+	 float: left;
+	 width: 181px;
+	 height: 28px;
+	 line-height: 28px;
+	 font-size: 0.9em;
+	 color: #ffffff;
+	 background: #909090;
+	 text-align: center;
+}
+
+#join_hint_visible {
+	 position: relative;
+	 z-index: 1;
+	 left: 0px;
+	 top: 0px;
+	 display: none;
+}
+
+#join_hint_cont {
+	 position: absolute;
+	 width: 300px;
+	 height: 200px;
+	 left: 360px;
+	 top: 30px;
+	 z-index: 1;
+	 background: #ffffff;
+	 border: 1px solid #909090;
+	 font-size: 0.9em;
+	 line-height: 1.5em;
+	 padding:10px 10px;
+}
+
+#join_select {
+    margin: 10px;
+	width: 200px;
+	padding: .8em .5em;
+	
+	border: 1px solid #c0c0c0;
+	background: url('../img/arrow.jpg') no-repeat 95% 50%;
+	background-color: transparent;
+	border-radius: 0px;
+	
+	font-size: 15px;
+    color: gray;
+    font-family: 'Hanna', serif;
+	
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+div a {
+	font-size: 18px;
+    color: #0080ff;
+    text-decoration: none;
+}
+
+div #login_input{
+	margin: 10px;
+    width: 200px;
+    height: 40px;
+    border: 1px solid #c0c0c0;
+    background-color: transparent;
+    /*text-align: center;
+    position: absolute;
+    left: 25%;
+    top: 60%;
+    transform: translateX(-50%);*/
+	font-size: 15px;
+    color: gray;
+    font-family: 'Hanna', serif;
+}
+
+#sort_right {
+	text-align: right;
+}
+
+#sort_center {
+	text-align: center;
+}
+
+.btn:hover {
+	background-color: rgb(52, 152, 219, 0.61);
+}
+
+.btn::after {
+  height: 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+:hover:after {
+  height: 100%;
+}
+
+::before,
+::after {
+  background: #fff;
+  content: '';
+  position: absolute;
+  z-index: -1;
+}
+
+.btn,
+.btn::after {
+  -webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.btn {
+	margin: 5px;
+    width: 150px;
+    height: 35px;
+    border: 1px solid #c0c0c0;
+    background-color: transparent;
+	font-size: 15px;
+    color: black;
+    background-color: white;
+    font-family: 'Hanna', serif;
+}
+
+.font {
+	font-size: 20px;
+}
